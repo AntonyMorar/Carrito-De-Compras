@@ -1,0 +1,120 @@
+#2c773d@font-face {
+    font-family: "FunctionRegular";
+    src: url(FunctionRegular.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    font-family: FunctionRegular;
+}
+/* Este es un div contiene toda la pagia web, su padre es el body */
+
+#bodyContenedor {
+    width: 1024px;
+    margin: 0 auto;
+
+    background-color: white;
+}
+
+header {
+    font-size: 100%;
+    line-height: 20px;
+}
+
+header h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* Este es un div contiene cada producto por separado */
+
+.producto {
+    float: left;
+
+    margin-right: 40px;
+    margin-bottom: 15px;
+
+    text-align: center;
+
+    font-size: 100%;
+}
+
+.producto img {
+    width: 100px;
+}
+
+.Comprar {
+    color: green;
+}
+
+#carritoDeCompras {
+    clear: left;
+
+    padding-bottom: 15px;
+
+    border-top: 1px solid #ccc;
+}
+
+#carritoDeCompras div {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    border-bottom: 1px solid #ccc;
+}
+
+#carritoDeCompras img {
+    float: left;
+
+    width: 70px;
+    margin-right: 10px;
+}
+
+#carritoDeCompras h2 h3 {
+    font-size: 150%;
+}
+
+#carritoDeCompras .cantidad {
+    float: right;
+
+    line-height: 25px;
+}
+
+#carritoDeCompras button {
+    display: inline-block;
+    float: right;
+
+    margin: 0 10px;
+    padding: 5px 15px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: white;
+    border: none;
+    background-color: #555555;
+
+    font-size: 13px;
+}
+
+#carritoDeCompras .mas {
+    margin-right: 40%;
+}
+
+#carritoDeCompras button:focus {
+    outline: 0px;
+}
+
+#carritoDeCompras button:hover {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+
+#precioTotal {
+    float: right;
+
+    background-color: white;
+
+    font-size: 200%;
+}
