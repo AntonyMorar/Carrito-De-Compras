@@ -1,4 +1,4 @@
-#2c773d@font-face {
+@font-face {
     font-family: "FunctionRegular";
     src: url(FunctionRegular.ttf) format("truetype");
 }
@@ -10,6 +10,13 @@
     list-style: none;
 
     font-family: FunctionRegular;
+}
+
+header{
+    padding: 0px 40px;
+    background-color: #383838;
+    color: white;
+    margin-bottom: 40px;
 }
 /* Este es un div contiene toda la pagia web, su padre es el body */
 
@@ -40,6 +47,7 @@ header h1 {
     text-align: center;
 
     font-size: 100%;
+    cursor: pointer;
 }
 
 .producto img {
